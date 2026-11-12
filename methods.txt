@@ -1,0 +1,2 @@
+String.join(delimiter,elements) - to join strings
+"string".indexof('s') // 0 - to find index of character in string
