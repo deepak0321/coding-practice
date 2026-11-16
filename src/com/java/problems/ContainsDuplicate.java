@@ -1,3 +1,5 @@
+package com.java.problems;
+
 import java.util.*;
 
 public class ContainsDuplicate {
