@@ -1,0 +1,40 @@
+SQL NOTES
+
+SQL EXCETION ORDER
+
+FROM
+WHERE
+GROUP BY
+HAVING
+SELECT
+ORDER BY
+LIMIT/OFFSET
+
+WHERE vs HAVING ?
+WHERE salary > 50000 vs HAVING salary > 50000 ?
+
+WHERE - filters rows before grouping
+HAVING - filters groups after grouping
+Aggregate functions belong in HAVING, not WHERE
+
+LIMIT - controls how many rows to return
+OFFSET - used for skipping rows
+SECOND HIGHEST SALARY => LIMIT 1 OFFSET 1
+
+
+DON'T USE == FOR EQUALITY CHECKS,using = is correct
+DONT COMPARE NULL with =, use IS NULL, IS NOT NULL
+
+SELF JOIN NEEDS TWO ALIASES EVEN THOUGH ITS SAME TABLE
+
+WINDOW FUNCTIONS
+
+ROW_NUMBER() - Assigns Unique Number to Each Row, Even Ties get Different Number
+RANK() - Same Value gets same number, but skips number
+DENSE_RANK() - Same Values get same number, no skips
+LAG() - Previous row value
+LEAD() - Next row Value
+PARTITION BY 
+
+
+
