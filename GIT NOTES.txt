@@ -1,1 +1,62 @@
 GIT NOTES
+
+git status -> Shows modified, staged, and untracked files.
+git add . -> Stages all changes for the next commit.
+git add <file> -> Stages a specific file.
+git commit -m "message" -> Saves staged changes into local Git history.
+git push -> Uploads local commits to remote repository.
+git pull -> Fetches and merges latest changes from remote.
+git fetch -> Downloads remote changes without merging.
+git branch -> Lists all local branches.
+git branch <branch-name> -> Creates a new branch.
+git checkout <branch-name> -> Switches to another branch.
+git switch <branch-name> -> Modern way to switch branches.
+git checkout -b <branch-name> -> Creates and switches to a new branch.
+git switch -c <branch-name> -> Creates and switches to a new branch (modern syntax).
+git merge <branch-name> -> Merges the specified branch into the current branch.
+git merge --abort -> Cancels an ongoing merge.
+git rebase main -> Replays current branch commits on top of main.
+git rebase --continue -> Continues rebase after resolving conflicts.
+git rebase --abort -> Cancels the rebase process.
+git stash -> Temporarily saves uncommitted changes.
+git stash list -> Lists all saved stashes.
+git stash pop -> Restores and removes the latest stash.
+git stash apply -> Restores stash without deleting it.
+git log -> Shows detailed commit history.
+git log --oneline -> Shows compact commit history.
+git log --graph --oneline --all -> Shows visual branch and merge history.
+git reset --soft HEAD~1 -> Removes last commit but keeps changes staged.
+git reset HEAD~1 -> Removes last commit and keeps changes unstaged.
+git reset --hard HEAD~1 -> Removes last commit and deletes changes.
+git revert <commit-id> -> Creates a new commit that undoes a previous commit.
+git cherry-pick <commit-id> -> Copies a specific commit into the current branch.
+git remote -v -> Shows configured remote repositories.
+git remote add origin <url> -> Connects local repository to a remote repository.
+git rm --cached <file> -> Stops tracking a file but keeps it locally.
+git diff -> Shows unstaged changes.
+git diff --staged -> Shows staged changes.
+git show <commit-id> -> Shows details of a commit.
+git branch -d <branch-name> -> Deletes a local branch.
+git push origin --delete <branch-name> -> Deletes a remote branch.
+git clone <url> -> Creates a local copy of a remote repository.
+git tag <tag-name> -> Creates a tag for a specific commit.
+git blame <file> -> Shows who changed each line in a file.
+git restore <file> -> Discards unstaged changes in a file.
+git restore --staged <file> -> Unstages a file without losing changes.
+.gitignore -> Prevents specified files/folders from being tracked by Git.
+
+git add -> Move changes to staging area.
+git commit -> Save staged changes to local repository.
+git push -> Send local commits to remote repository.
+git fetch -> Download remote changes only.
+git pull -> Fetch + Merge.
+git merge -> Combine branch histories.
+git rebase -> Create linear history by replaying commits.
+git stash -> Temporarily hide uncommitted work.
+git revert -> Safely undo using a new commit.
+git reset -> Remove commits or move HEAD.
+git cherry-pick -> Copy a specific commit.
+git checkout -> Switch branches or restore files.
+git branch -> Create or list branches.
+git clone -> Copy a remote repository locally.
+git tag -> Mark a specific commit version.
