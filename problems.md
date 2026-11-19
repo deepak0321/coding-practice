@@ -8,21 +8,21 @@
 
 ~~palindrome~~
 
-anagram check
+~~anagram check~~
 
-character frequency
+~~character frequency~~
 
 ~~first non-repeating character~~
 
 ~~remove duplicate characters~~
 
-count vowels and consonants
+~~count vowels and consonants~~
 
 ~~compress aabccc to a2b1c3~~
 
 ~~longest substring without repeating characters~~
 
-is one string a rotation of another
+~~is one string a rotation of another~~
 
 ~~valid brackets~~
 
@@ -46,7 +46,7 @@ is one string a rotation of another
 
 ~~move zeros to the end~~
 
-rotate by k
+~~rotate by k~~
 
 ~~merge two sorted arrays~~
 
@@ -60,21 +60,21 @@ rotate by k
 
 ~~remove duplicates from a sorted array~~
 
-bubble sort
+~~bubble sort~~
 
-binary search
+~~binary search~~
 
-Fibonacci
+~~Fibonacci~~
 
-prime check
+~~prime check~~
 
-factorial
+~~factorial~~
 
-Armstrong number
+~~Armstrong number~~
 
-swap without a third variable
+~~swap without a third variable~~
 
-FizzBuzz
+~~FizzBuzz~~
 
 
 

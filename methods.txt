@@ -4,3 +4,19 @@ String.valueOf() - to convert to string
 
 Monotonic Stack Uses
 Array Deque Instead of Stack
+
+Arrays use Arrays.sort(), Lists use .sort(), Streams use .sorted().
+
+In Java, thenComparing is a Comparator method that adds a secondary (and further) sorting rule, used only when the previous comparison results in equality
+
+A Functional Interface has exactly one abstract method.
+
+Predicate  -> test
+Function   -> apply
+Consumer   -> accept
+Supplier   -> get
+Comparator -> compare
+Runnable   -> run
+Callable   -> call
+
+Optional<T> is a class designed to wrap a value that may or may not present.
